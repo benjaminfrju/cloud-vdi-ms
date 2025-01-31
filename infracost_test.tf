@@ -1,3 +1,7 @@
+provider "google" {
+  region = "us-east1"
+  project = "test"
+}
 ## Connection variables
 project_id                  = "fine-web-382122"
 google_credential_file_path = "./gcp_credentials.json"
